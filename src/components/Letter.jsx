@@ -5,20 +5,26 @@ function Letter() {
      const letterflip = useRef();
      const container = useRef();
      const heart = useRef();
+     const text = useRef();
      function handleClick() {
           letterflip.current.classList.add("animate-open");
           heart.current.classList.add("animate-disappear");
+
+          setInterval(() => {
+               text.current.classList.add("animate-appear");
+          }, 1000);
+
           setInterval(() => {
                container.current.classList.add("animate-disappear");
-          }, 1000);
+          }, 5000);
           setInterval(() => {
                container.current.classList.add("hidden");
-          }, 2000);
+          }, 6000);
      }
 
      return (
           <section
-               className="bg-gradient-to-br from-blue-100 to-pink-100 absolute h-screen w-full delay-1000"
+               className="bg-gradient-to-br from-blue-100 to-pink-100 fixed h-screen w-full delay-1000 z-50"
                ref={container}
           >
                <div
@@ -41,8 +47,20 @@ function Letter() {
                               className="w-full h-full bg-blue-200 [clip-path:polygon(50%_50%,_0_0,_100%_0)] z-10"
                               ref={letterflip}
                          ></div>
+
+                         <div
+                              className="absolute top-0 p-4 h-[15rem] opacity-0"
+                              ref={text}
+                         >
+                              <div className="border-8 border-cyan-100 h-full p-4 text-cyan-700">
+                                   <p>Welcome love!!</p>
+                                   <p>
+                                        There is something that I'd like to say
+                                   </p>
+                              </div>
+                         </div>
                     </div>
-                    <p className="text-center text-cyan-500 uppercase">
+                    <p className="text-center text-cyan-700 font-borel">
                          Click to open
                     </p>
                </div>
