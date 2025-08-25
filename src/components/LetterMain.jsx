@@ -10,10 +10,10 @@ function LetterMain({ setLetterOpen }) {
                     >
                          <RxCross1 className="size-6" />
                     </button>
-                    <p className="text-2xl text-blue-500 ">
+                    <p className="text-2xl text-pink-500 ">
                          Here is a letter for you
                     </p>
-                    <div className="border-8 border-blue-300 p-4">
+                    <div className="border-8 border-pink-300 p-4">
                          <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing
                               elit. Magni nemo fugit animi assumenda. Porro

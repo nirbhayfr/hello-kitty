@@ -9,7 +9,7 @@ const data = [
      },
      {
           icon: <FaHeart className="size-12" />,
-          heading: "Here is a picture!",
+          heading: "There's something inside the heart that belongs to you!",
           text: "Click on the heart above!!",
      },
 ];
@@ -25,7 +25,7 @@ function HomePopupMain({ setLetterOpen, setPictureOpen }) {
                          <div className="size-20 bg-pink-300 rounded-full text-pink-600 flex justify-center items-center">
                               {data[0].icon}
                          </div>
-                         <h2 className="text-2xl md:text-4xl text-pink-500">
+                         <h2 className="text-2xl md:text-4xl text-pink-500 text-center">
                               {data[0].heading}
                          </h2>
                          <p>{data[0].text}</p>
@@ -38,9 +38,10 @@ function HomePopupMain({ setLetterOpen, setPictureOpen }) {
                               className="size-20 bg-pink-300 rounded-full text-pink-600 flex justify-center items-center"
                               onClick={() => setPictureOpen(true)}
                          >
-                              {data[1].icon}
+                              {data[1].icon}{" "}
+                              <FaHeart className="size-12 absolute animate-ping" />
                          </div>
-                         <h2 className="text-2xl md:text-4xl text-pink-500">
+                         <h2 className="text-2xl md:text-4xl text-pink-500 text-center">
                               {data[1].heading}
                          </h2>
                          <p>{data[1].text}</p>

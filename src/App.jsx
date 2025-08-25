@@ -8,7 +8,7 @@ function App() {
      const [letterOpen, setLetterOpen] = useState(false);
      const [pictureOpen, setPictureOpen] = useState(false);
      return (
-          <main className="font-borel relative flex">
+          <main className="font-borel relative flex text-lg">
                <Letter />
                <Slides
                     setLetterOpen={setLetterOpen}

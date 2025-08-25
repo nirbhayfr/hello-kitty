@@ -10,8 +10,10 @@ function LetterMain({ setPictureOpen }) {
                     >
                          <RxCross1 className="size-6" />
                     </button>
-                    <p className="text-2xl text-blue-500 ">Here is a picture</p>
-                    <div className="border-8 border-blue-300 p-4">
+                    <p className="text-2xl text-pink-500 ">
+                         Here's something close to my heart
+                    </p>
+                    <div className="border-8 border-pink-300 p-4">
                          <p>picture</p>
                     </div>
                </div>

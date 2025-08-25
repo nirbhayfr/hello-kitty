@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Borel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 @import "tailwindcss";
 
 @theme {
-     --font-borel: "Borel", cursive;
+     --font-borel: "Dancing Script", cursive;
 
      --animate-open: open 1.2s ease-in-out forwards;
      --animate-disappear: disappear 1.2s ease-in-out forwards;

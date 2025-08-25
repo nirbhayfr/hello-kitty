@@ -49,10 +49,10 @@ function Letter() {
                          ></div>
 
                          <div
-                              className="absolute top-0 p-4 h-[15rem] opacity-0"
+                              className="absolute top-0 p-4 h-[15rem] w-[22.5rem] opacity-0"
                               ref={text}
                          >
-                              <div className="border-8 border-cyan-100 h-full p-4 text-cyan-700">
+                              <div className="border-8 border-cyan-100 h-full w-full p-4 text-cyan-700">
                                    <p>Welcome love!!</p>
                                    <p>
                                         There is something that I'd like to say
