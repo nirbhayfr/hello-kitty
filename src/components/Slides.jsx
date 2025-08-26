@@ -1,14 +1,30 @@
+import { useAudioPlayer } from "react-use-audio-player";
 import HomePopupMain from "./HomePopupMain";
 
 function Slides({ setLetterOpen, setPictureOpen }) {
+     const { togglePlayPause } = useAudioPlayer("/music.mp3", {
+          autoplay: true,
+     });
      return (
           <section className="bg-gradient-to-br from-blue-100 to-pink-100 min-h-screen w-full px-8 py-12 flex flex-col gap-12 items-center text-stone-700">
+               <div className="flex flex-col items-end fixed right-3 top-3 z-50 text-sm gap-2">
+                    <p className="bg-pink-200 rounded-full p-2">
+                         Click to play music 🎵
+                    </p>
+                    <button
+                         className="bg-blue-200 rounded-full p-3 flex"
+                         onClick={togglePlayPause}
+                    >
+                         <span className="absolute animate-ping">🎶</span>🎶
+                    </button>
+               </div>
+
                <div className="space-y-4">
                     <h1 className="text-pink-600 text-2xl md:text-5xl text-center">
                          Heyyyyyyyyy!! 💝❣
                     </h1>
                     <p className="text-center md:text-lg">
-                         Waise aajkal koi acchi movie nhi aa rhi~ 😉
+                         Waise aajkal koi acchi movie nhi aa rhi~ 💃
                     </p>
                </div>
 
