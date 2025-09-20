@@ -11,18 +11,24 @@ function LetterMain({ setLetterOpen }) {
                          <RxCross1 className="size-6" />
                     </button>
                     <p className="text-2xl text-pink-500 ">
-                         Here is a letter for you
+                         Realisation??? Yess!!
                     </p>
                     <div className="border-8 border-pink-300 p-4">
                          <p>
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Magni nemo fugit animi assumenda. Porro
-                              quibusdam vel hic explicabo culpa deserunt, omnis
-                              modi accusantium fugit ratione. Quibusdam dolores
-                              delectus modi illo consectetur laudantium! Iste
-                              corporis, non doloremque tenetur eos provident
-                              illum aliquid sequi cum, neque, beatae iusto
-                              reiciendis! Rem, nesciunt omnis!
+                              If we talk about realisation I just know that I
+                              realise being so in love with you,i just want you
+                              to know that there's no word I can use to describe
+                              this feeling...I get it how bad I make you feel at
+                              times and I know what you go through meri wajah
+                              se..things really just get tough for you to deal
+                              with (tough to aap bhi ho ) I know it well what
+                              you want ,you don't need to give hints to me to
+                              ever decode,the only thing left to decode is aap
+                              seh kaise rhe ho mujhe????????? Like brother
+                              you're so strong..I just can't express these
+                              things in words so abhi ke liye just know ki I
+                              love you and ykw aap mujhe isi khushi me ice cream
+                              khila skte ho i won't mind🥰
                          </p>
                     </div>
                </div>

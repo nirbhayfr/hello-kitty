@@ -24,7 +24,9 @@ function Slides({ setLetterOpen, setPictureOpen }) {
                          Heyyyyyyyyy!! 💝❣
                     </h1>
                     <p className="text-center md:text-lg">
-                         Waise aajkal koi acchi movie nhi aa rhi~ 💃
+                         {
+                              "Abhi mujhe kaafi bhaari realisation hua,\nbatau kya?🥰🥰"
+                         }
                     </p>
                </div>
 
@@ -44,7 +46,8 @@ function Slides({ setLetterOpen, setPictureOpen }) {
                               <img src="/gif2.gif" alt="" />
                               <p className="text-center">
                                    Mera khel khatam ho jyega agar aap overthink
-                                   krte rhe to 😔
+                                   krte rhe to 😔(or whatever you call it rather
+                                   than overthinking)
                               </p>
                          </div>
                     </div>
@@ -70,9 +73,16 @@ function Slides({ setLetterOpen, setPictureOpen }) {
                               Something we need to hear? 🤗🤗
                          </h2>
                          <p className="text-center bg-white p-3 border-2 border-dashed border-pink-300 rounded-lg">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Nemo quis eveniet deleniti nostrum, incidunt
-                              optio blanditiis similique dolorum harum delectus.
+                              And at the end of the nothing matters to me
+                              anymore,yes the doors of my heart are still
+                              closed....for you to never escape,for you to stay
+                              forever, maybe it's okay not to have everything
+                              figured out but I we know it well .. we,
+                              together,can figure out everything and come to a
+                              conclusion where there is only willingness to stay
+                              and love like no has ever done before , aur haan
+                              mera to saara time aapka hai..CAN YOU SEE THE
+                              COLOURS NOW????
                          </p>
                     </div>
                </div>
