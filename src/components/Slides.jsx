@@ -37,7 +37,7 @@ function Slides({ setLetterOpen, setPictureOpen }) {
 
                <div className="grid gap-6 md:grid-cols-2">
                     <div className="bg-pink-400 rounded-lg flex">
-                         <div className="border-2 border-stone-800 rounded-lg p-4 flex flex-col items-center gap-4  shadow-2xl bg-white/90 -translate-2">
+                         <div className="border-2 border-stone-800 rounded-lg p-4 flex flex-col items-center gap-4  shadow-2xl bg-white/90 -translate-2 w-full">
                               <p className="border-2 border-stone-600 p-6 rounded-lg text-center">
                                    I know I've been distant and I'm truly sorry.
                                    💓
@@ -53,7 +53,7 @@ function Slides({ setLetterOpen, setPictureOpen }) {
                     </div>
 
                     <div className="bg-pink-400 rounded-lg flex">
-                         <div className="border-2 border-stone-800 rounded-lg p-4 flex flex-col items-center gap-4  shadow-2xl bg-white/90 -translate-2">
+                         <div className="border-2 border-stone-800 rounded-lg p-4 flex flex-col items-center gap-4  shadow-2xl bg-white/90 -translate-2 w-full">
                               <p className="border-2 border-stone-600 p-6 rounded-lg text-center">
                                    I know sometimes I get on your nerves or
                                    maybe every time. 😛
